@@ -3,3 +3,12 @@ body{
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
+
+.boba {
+ background-image: url('http://fc01.deviantart.net/fs71/f/2012/002/c/e/bubble_tea_animation_avatar_by_loconut1-d4l41m0.gif');
+width: 50px;
+height: 100%;
+left: 1325px;
+position: absolute;
+
+}
