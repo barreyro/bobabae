@@ -11,3 +11,27 @@ height: 100%;
 left: 1325px;
 position: absolute;
 }
+
+#karina {
+  background-image: url('../img/karina.png');
+  background-size: 250px auto;
+  height: 300px;
+  width: 250px;
+  margin: 0px;
+  position: absolute;
+}
+
+#stef {
+  background-image: url('../img/stef.png');
+   background-size: 250px auto;
+  height: 300px;
+  width: 250px;
+  position:absolute;
+}
+
+#arena {
+  background-color: yellow;
+  border-color: black;
+  border-style: solid;
+  position: relative;
+}
