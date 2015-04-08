@@ -77,6 +77,13 @@ body{
 }
 
 .restart {
+  position: relative;
   font-family:'Crafty Girls', cursive;
-  position: absolute;
+}
+
+.instructions {
+  font-family:'Crafty Girls', cursive;
+  margin-left: 18em;
+  margin-top: 12em;
+  width: 50%;
 }

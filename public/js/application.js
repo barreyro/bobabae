@@ -29,4 +29,8 @@ $(document).ready(function() {
   $('.restart').click(function() {
     location.reload(true);
   });
+
+    $(".instructions").fadeOut(7500, function() {
+        $(this).remove();
+    });
 })

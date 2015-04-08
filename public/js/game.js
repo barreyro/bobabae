@@ -28,4 +28,8 @@ $(document).ready(function() {
   $('.restart').click(function() {
     location.reload(true);
   });
+
+    $(".instructions").fadeOut("normal", function() {
+        $(this).remove();
+    });
 })
