@@ -37,12 +37,12 @@ position: absolute;
   position: relative;
 }
 
-.KarinaWins {
+.karinaWins {
   background-image:url('../img/karinaWins.gif');
   left: 400px;
   height: 400px;
   width: 400px;
-  background-position: 10px -0px;
+  background-position: 50px 40px;
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
@@ -78,6 +78,7 @@ position: absolute;
 }
 
 .restart {
+  font-family:'Crafty Girls', cursive;
   background-image: url('../img/restart.jpg');
   background-size:100px auto;
   height: 100px;
