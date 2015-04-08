@@ -8,7 +8,6 @@ function Stef(x, y) {
   this.sprite.css('left', this.x)
 }
 
-
 Stef.prototype.updateSpritePosition = function() {
   this.sprite.css('top', this.y);
   this.sprite.css('left', this.x);

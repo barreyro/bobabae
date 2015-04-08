@@ -1,14 +1,15 @@
 body{
   background-image: url('https://33.media.tumblr.com/e10995d6b5cb02611ef3daf83d2e4e2c/tumblr_mnu29epECi1rfjowdo1_500.gif');
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 120%;
+  height: auto;
 }
 
 .boba {
  background-image: url('http://fc01.deviantart.net/fs71/f/2012/002/c/e/bubble_tea_animation_avatar_by_loconut1-d4l41m0.gif');
 width: 50px;
 height: 100%;
-left: 1325px;
+left: 1070px;
 position: absolute;
 }
 
@@ -82,5 +83,5 @@ position: absolute;
   height: 100px;
   width: 100px;
   position: absolute;
-  margin-top:750px;
+  margin-top:36%;
 }
