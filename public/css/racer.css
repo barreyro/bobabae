@@ -79,10 +79,5 @@ position: absolute;
 
 .restart {
   font-family:'Crafty Girls', cursive;
-  background-image: url('../img/restart.jpg');
-  background-size:100px auto;
-  height: 100px;
-  width: 100px;
   position: absolute;
-  margin-top:36%;
 }
