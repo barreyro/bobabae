@@ -6,7 +6,7 @@
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
   -->
-  <link rel="stylesheet" href="/css/normalize.css">
+  <link href='public/css/racer.css' rel='stylesheet' type='text/css'>
   <!--
     application.css is where you put your styles
   -->
@@ -14,23 +14,27 @@
   <!-- Load Vollkorn font -->
   <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="/js/application.js"></script>
-
-  <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="public/js/mousetrap.js"></script>
+    <script src="public/js/arena.js"></script>
+    <script src="public/js/karina.js"></script>
+    <script src="public/js/stef.js"></script>
+    <script src="public/js/game.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+  <title>BOBABAE</title>
 </head>
 <body>
-<div id="content">
-  <header>
-    <a href="/"><img src="/img/zenchinese.png" class="logo"></a>
-    <div id="login-toolbar">
-      <% if current_user %>
-        <a href="/logout">Logout</a>
-      <% else %>
-        <a href="/login">Login</a>
-      <% end %>
-  </header>
-  <%= yield %>
-</div>
+  <div class='boba'>
+  </div>
+  <div id="karina">
+  </div>
+  <div id="stef">
+  </div>
+  <div class="karinaWins">
+   <h1> Karina Wins!~</h1>
+  </div>
+  <div class="StephWins">
+    <h1> Steph Wins!~</h1>
+  </div>
 </body>
 </html>
