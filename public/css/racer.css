@@ -35,3 +35,43 @@ position: absolute;
   border-style: solid;
   position: relative;
 }
+
+.KarinaWins {
+  background-image:url('../img/karinaWins.gif');
+  left: 500px;
+  height: 400px;
+  width: 400px;
+  background-position: 10px -60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  display: none;
+  margin-top: 70px;
+}
+
+.StephWins {
+  background: pink;
+  background-image: url('stephWins.gif');
+  background-size:400px auto;
+  left: 500px;
+  height: 400px;
+  width: 400px;
+  background-position: 10px -60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  display: none;
+  margin-top: 70px;
+}
+
+.StephWins h1{
+  font-family: 'Crafty Girls', cursive;
+  color: white;
+  text-align: center;
+}
+
+.KarinaWins h1{
+  font-family:'Crafty Girls', cursive;
+  color: pink;
+  text-align: center;
+}
