@@ -14,7 +14,7 @@ body{
 }
 
 #karina {
-  background-image: url('../img/karina.png');
+  background-image: url('/public/img/karina.png');
   background-size: 250px auto;
   height: 300px;
   width: 250px;
@@ -22,7 +22,7 @@ body{
 }
 
 #stef {
-  background-image: url('../img/stef.png');
+  background-image: url('/public/img/stef.png');
    background-size: 250px auto;
   height: 300px;
   width: 250px;
