@@ -75,3 +75,12 @@ position: absolute;
   color: pink;
   text-align: center;
 }
+
+.restart {
+  background-image: url('../img/restart.jpg');
+  background-size:100px auto;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  margin-top:750px;
+}

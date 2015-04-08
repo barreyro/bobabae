@@ -24,4 +24,8 @@ $(document).ready(function() {
       Mousetrap.unbind('a');
       };
   });
+
+  $('.restart').click(function() {
+    location.reload(true);
+  });
 })
