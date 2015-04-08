@@ -39,10 +39,10 @@ position: absolute;
 
 .KarinaWins {
   background-image:url('../img/karinaWins.gif');
-  left: 500px;
+  left: 400px;
   height: 400px;
   width: 400px;
-  background-position: 10px -60px;
+  background-position: 10px -0px;
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
@@ -52,12 +52,12 @@ position: absolute;
 
 .StephWins {
   background: pink;
-  background-image: url('stephWins.gif');
+  background-image: url('../img/stephWins.gif');
   background-size:400px auto;
-  left: 500px;
+  left: 400px;
   height: 400px;
   width: 400px;
-  background-position: 10px -60px;
+  background-position: 10px -0px;
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
