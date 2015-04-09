@@ -1,5 +1,5 @@
 # bobabae
-Two players race to the finishing line to win a sweet prize.
+Two players race to the finishing line to win a sweet prize. View it [here](http://bo-ba.herokuapp.com).
 
 BobaBae uses Sinatra, Jquery, and regular HTML5 Stack(HTML, CSS, JavaSript).
 
