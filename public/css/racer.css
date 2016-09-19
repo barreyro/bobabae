@@ -6,12 +6,26 @@ body{
   background-color: #FAAFBA;
 }
 
+#arena {
+  background-color: yellow;
+  border-color: black;
+  border-style: solid;
+  position: relative;
+}
+
 .boba {
  background-image: url('http://fc01.deviantart.net/fs71/f/2012/002/c/e/bubble_tea_animation_avatar_by_loconut1-d4l41m0.gif');
   width: 50px;
   height: 100%;
   left: 1070px;
   position: absolute;
+}
+
+.instructions {
+  font-family:'Crafty Girls', cursive;
+  margin-left: 18em;
+  margin-top: 12em;
+  width: 50%;
 }
 
 #karina {
@@ -30,13 +44,6 @@ body{
   position: absolute;
 }
 
-#arena {
-  background-color: yellow;
-  border-color: black;
-  border-style: solid;
-  position: relative;
-}
-
 .karinaWins {
   background-image:url('../img/karinaWins.gif');
   left: 400px;
@@ -48,6 +55,12 @@ body{
   position: absolute;
   display: none;
   margin-top: 70px;
+}
+
+.KarinaWins h1{
+  font-family:'Crafty Girls', cursive;
+  color: pink;
+  text-align: center;
 }
 
 .StephWins {
@@ -71,20 +84,8 @@ body{
   text-align: center;
 }
 
-.KarinaWins h1{
-  font-family:'Crafty Girls', cursive;
-  color: pink;
-  text-align: center;
-}
-
 .restart {
   position: relative;
   font-family:'Crafty Girls', cursive;
 }
 
-.instructions {
-  font-family:'Crafty Girls', cursive;
-  margin-left: 18em;
-  margin-top: 12em;
-  width: 50%;
-}
